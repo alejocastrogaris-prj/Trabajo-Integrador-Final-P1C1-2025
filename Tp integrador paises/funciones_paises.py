@@ -122,7 +122,7 @@ def mostrar_paises_bonito(lista, titulo="RESULTADOS"):
     largo_cont = max(15, max_cont + 2)
     ancho_total = largo_nombre + largo_cont + 12 + 15 + 6
 
-    print(f"\n⭐ {titulo.upper()} (Total: {len(lista)} paises) ⭐")
+    print(f"\n {titulo.upper()} (Total: {len(lista)} paises) ")
     print("=" * ancho_total)
     print(f"{'NOMBRE':<{largo_nombre}} | {'CONTINENTE':<{largo_cont}} | {'POBLACION':>12} | {'SUPERFICIE (km²)':>15}")
     print("-" * ancho_total)
