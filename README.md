@@ -14,7 +14,7 @@ El usuario debe escribir el número de la opción que quiere usar y seguir las i
 Ejemplo de e/s:
 Seleccione una opción: 7
 
-📊 ESTADÍSTICAS:
+ESTADÍSTICAS:
 - País con mayor población: China (1,412,600,000 hab.)
 - País con menor población: Chile (19,116,201 hab.)
 - Promedio de población: 296,073,868
