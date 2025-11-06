@@ -94,7 +94,7 @@ def mostrar_estadisticas(paises):
         cont = p["continente"]
         conteo_continentes[cont] = conteo_continentes.get(cont, 0) + 1
 
-    print("\n📊 ESTADISTICAS:")
+    print("\n ESTADISTICAS:")
     print(f"- Pais con mayor poblacion: {pais_mayor_pob['nombre']} ({pais_mayor_pob['poblacion']:,.0f} hab.)")
     print(f"- Pais con menor poblacion: {pais_menor_pob['nombre']} ({pais_menor_pob['poblacion']:,.0f} hab.)")
     print(f"- Promedio de poblacion: {promedio_pob:,.0f}")

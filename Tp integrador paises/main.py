@@ -16,7 +16,7 @@ from funciones_paises import (
 def menu():
     """Muestra las opciones del TPI solicitadas."""
     print("\n" + "="*40)
-    print("🗺️ SISTEMA DE DATOS DE PAISES")
+    print(" SISTEMA DE DATOS DE PAISES")
     print("="*40)
     print("1. Ver lista completa de paises")
     print("2. Buscar pais por nombre") # [cite: 99]
@@ -63,7 +63,7 @@ def main():
                 resultados = filtrar_por_poblacion(paises, min_p, max_p)
                 mostrar_paises_bonito(resultados, titulo=f"FILTRO POR POBLACION: {min_p:,} a {max_p:,}")
             except ValueError:
-                print("❌ Error: ingrese valores enteros validos.\n")
+                print(" Error: ingrese valores enteros validos.\n")
 
         elif opcion == "5":
             try:
@@ -100,11 +100,11 @@ def main():
             mostrar_estadisticas(paises)
 
         elif opcion == "0":
-            print("👋 Saliendo del sistema.")
+            print(" Saliendo del sistema.")
             break
 
         else:
-            print("❌ Opcion invalida. Intente de nuevo.\n")
+            print(" Opcion invalida. Intente de nuevo.\n")
 
 
 if __name__ == "__main__":
